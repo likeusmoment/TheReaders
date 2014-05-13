@@ -5,6 +5,14 @@ public class DataCollection {
 	private Book book;
 	private Note note;
 	private Publisher publisher;
+	
+	public DataCollection(Book book) {
+		this.book = book;
+	}
+
+	public DataCollection(Author author) {
+		this.author = author;
+	}
 
 	public Author getAuthor() {
 		return author;
